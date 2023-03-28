@@ -1,6 +1,6 @@
 const h1 = document.getElementById("h1");
 const button = document.querySelector("button");
-
+const remove = document.querySelector("#removebtn");
 const input = document.querySelector("#input");
 const ul = document.querySelector(".ul");
 const newValue = document.createElement("li");
@@ -9,6 +9,7 @@ console.log(ul);
 console.log(h1);
 console.log(input);
 console.log(button);
+console.log(remove);
 
 h1.onmouseover = () => {
   h1.style.color = "gold";
@@ -34,4 +35,8 @@ ul.onmouseover = () => {
 };
 ul.onmouseout = () => {
   ul.style.border = "none";
+};
+
+remove.onclick = () => {
+  ul.lastElementChild.remove();
 };
