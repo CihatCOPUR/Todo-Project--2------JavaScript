@@ -5,12 +5,6 @@ const input = document.querySelector("#input");
 const ul = document.querySelector(".ul");
 const newValue = document.createElement("li");
 
-console.log(ul);
-console.log(h1);
-console.log(input);
-console.log(button);
-console.log(remove);
-
 h1.onmouseover = () => {
   h1.style.color = "gold";
   h1.style.fontSize = "2rem";
