@@ -1,12 +1,5 @@
-ul {
-  list-style-type: none;
-}
-
-li {
-  text-align: center;
-  color: red;
-  font-size: 1.5rem;
-}
-input {
-  margin: 2rem;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
