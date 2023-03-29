@@ -3,3 +3,44 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+main {
+  border: 2px solid black;
+  margin-top: 10%;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 4rem;
+
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(52, 52, 72);
+}
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#addBtn {
+  width: 5rem;
+  padding: 4px;
+  margin-left: 1px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+input {
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 20rem;
+}
