@@ -53,12 +53,14 @@ renderSaveTodos();
 window.onload = () => {
   input.focus();
 };
+console.log(todos);
 
-ul.onclick = (e) => {
+ul.onclick = function (e) {
   console.log(e.target);
+  const id = e.target.parentElement.getAttribute("id");
   if (e.target.classList.contains("fa-trash")) {
     e.target.parentElement.remove();
-    todo.filter((todo) => todo.id !== id);
+    todos = todos.filter((todo) => todo.id != Number(id));
   } else if (e.target.classList.contains("fa-check")) {
     e.target.parentElement.classList.toggle("completed");
   }
