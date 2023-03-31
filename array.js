@@ -58,6 +58,7 @@ ul.onclick = (e) => {
   console.log(e.target);
   if (e.target.classList.contains("fa-trash")) {
     e.target.parentElement.remove();
+    todo.filter((todo) => todo.id !== id);
   } else if (e.target.classList.contains("fa-check")) {
     e.target.parentElement.classList.toggle("completed");
   }
