@@ -14,9 +14,9 @@ body {
 }
 main {
   border: 2px solid black;
-  margin-top: 10%;
+  margin: 15% auto;
   width: 80%;
-  margin: auto;
+  padding-bottom: 2rem;
 }
 
 h1 {
