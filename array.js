@@ -61,6 +61,7 @@ ul.onclick = function (e) {
   if (e.target.classList.contains("fa-trash")) {
     e.target.parentElement.remove();
     todos = todos.filter((todo) => todo.id != Number(id));
+    localStorage.setItem("TODOS", JSON.stringify(todos));
   } else if (e.target.classList.contains("fa-check")) {
     e.target.parentElement.classList.toggle("completed");
   }
