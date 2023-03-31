@@ -1,7 +1,7 @@
 # New Todo project
 Javascript and localStorage is used in this project
 
-live:
+live:https://cihatcopur.github.io/Todo-Project--2------JavaScript/
 
 
 
