@@ -54,8 +54,25 @@ ul li {
   margin-left: 0.7rem;
   background-color: rgb(250, 245, 250);
   border-radius: 3px;
-  padding: 4px;
+  padding: 6px 8px 6px 8px;
+  font-weight: 1rem;
   margin-top: 1rem;
   display: flex;
   gap: 2rem;
+  justify-content: space-between;
+}
+li .fa-check {
+  color: red;
+}
+
+li.completed .fa-check {
+  color: rgb(8, 195, 157);
+}
+li.completed p {
+  color: rgb(41, 41, 41);
+  text-decoration: line-through;
+  font-weight: 0.8rem;
+}
+li .fas fa-trash {
+  color: red;
 }
