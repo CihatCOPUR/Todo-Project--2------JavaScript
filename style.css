@@ -56,4 +56,6 @@ ul li {
   border-radius: 3px;
   padding: 4px;
   margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
 }
